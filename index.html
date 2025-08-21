@@ -1,26 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Straymoon</title>
-  <link rel="stylesheet" href="style.css">
+
+  <!-- Fuente -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <div class="container">
-    <div class="logo">
-      <img src="assets/logo.png" alt="Straymoon Logo">
+  <!-- NAVBAR -->
+  <nav class="nav">
+    <div class="container nav-wrap">
+      <a href="#inicio" class="brand">
+        <img src="assets/logo.png" alt="Straymoon logo">
+      </a>
+      <ul class="nav-links">
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
     </div>
+  </nav>
 
-    <h1>Creando experiencias únicas en videojuegos</h1>
-    <p>Muy pronto conocerás nuestro primer juego</p>
-    <a href="mailto:contacto@straymoon.com" class="btn">Contáctanos</a>
-  </div>
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="container hero-wrap">
+      <h1>Creando experiencias<br>únicas en videojuegos</h1>
+      <p>Muy pronto conocerás nuestro primer juego.</p>
+      <a href="mailto:contacto@straymoon.com" class="btn">Contáctanos</a>
+    </div>
+  </section>
 
-  <footer>
-    © 2025 Straymoon |
-    <a href="#">Instagram</a> |
-    <a href="#">Twitter</a>
+  <!-- NOSOTROS -->
+  <section id="nosotros" class="section section-alt">
+    <div class="container center">
+      <h2>Nosotros</h2>
+      <p>Nuestro objetivo es conectar con personas y organizaciones a través de historias, diseño y jugabilidad, uniendo arte, narrativa y tecnología para dejar una huella en cada experiencia.</p>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="section">
+    <div class="container center">
+      <h2>Proyectos</h2>
+      <p>Aquí pronto mostraremos nuestros desarrollos y juegos en curso.</p>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section section-alt">
+    <div class="container center">
+      <h2>Contacto</h2>
+      <p>Escríbenos a <a class="link" href="mailto:contacto@straymoon.com">contacto@straymoon.com</a></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container center">
+      © 2025 Straymoon · <a href="#" class="footer-link">Instagram</a> · <a href="#" class="footer-link">Twitter</a>
+    </div>
   </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
 </body>
 </html>
