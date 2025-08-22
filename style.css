@@ -248,15 +248,28 @@ a { color: inherit; text-decoration: none; }
 
 @media (max-width: 720px) {
   .container { padding: 0 1.5rem; }
+
   .nav-wrap {
     gap: 0.5rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
+
   .brand img { height: 6rem; }
   .nav-links { gap: 0.9rem; flex-wrap: wrap; justify-content: center; }
-  .hero-wrap { padding: calc(var(--nav-h) + 8px) 0 48px; }
+  .hero-wrap { 
+    padding: calc(var(--nav-h) + 8px) 0 48px; 
+    text-align: center;
+  }
+  .hero h1 {
+    text-align: center;
+  }
+  .hero .btn {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (max-width: 420px) {
