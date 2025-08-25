@@ -253,6 +253,22 @@ a {
   color: var(--ink);
   font-size: 1rem;
 }
+/* ================== Contacto ================== */
+.contact-message {
+  font-size: 1.1rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  color: var(--muted);
+}
+
+.contact-message .link {
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.contact-message .link:hover {
+  text-decoration: underline;
+}
 
 /* ================== Footer ================== */
 .footer {
