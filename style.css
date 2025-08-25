@@ -52,6 +52,7 @@ a {
   inset: 0 0 auto 0;
   z-index: 1000;
   background: var(--nav);
+  background-color: rgba(28, 31, 40, 0.90);
   padding: 10px;
 }
 .nav-wrap {
