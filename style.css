@@ -51,8 +51,8 @@ a {
   position: fixed;
   inset: 0 0 auto 0;
   z-index: 1000;
-  background: var(--nav);
-  background-color: rgba(28, 31, 40, 0.90);
+  background: rgba(47, 54, 73, 0.5);
+  backdrop-filter: blur(10px);
   padding: 10px;
 }
 .nav-wrap {
