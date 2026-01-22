@@ -94,7 +94,7 @@ a {
   align-items: center;
   background:
   linear-gradient(to right, rgba(0,0,0,.65) 35%, rgba(0,0,0,.25) 60%, rgba(0,0,0,0) 100%),
-  url('assets/hero-bg.png') 100% 5% / cover no-repeat;
+  url('assets/hero-bg.jpeg') 100% 5% / cover no-repeat;
 }
 .hero-wrap {
   width: 100%;
